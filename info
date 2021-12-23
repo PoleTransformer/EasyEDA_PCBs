@@ -1,0 +1,592 @@
+{
+  "uuid": "1354cf00bc6199fda6748037bdb7ae20",
+  "path": "Offline/Nixie%20Clock",
+  "name": "Nixie Clock",
+  "content": "",
+  "created_at": "2021-08-27 16:07:40",
+  "updated_at": "2021-08-28 17:40:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0fdac5eae077962d1191df42defe7b90",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29916411b5824538ac6e86db0ad4c912": 1,
+        "4726216aa3344b0186163e2b1c08e4bf": 1,
+        "9ac284cfb7ea48f2af532b2403c1b78c": 1,
+        "e5e816f06b3a4b4d9db4af55c4c5693e": 4,
+        "15d372b887d64ee2bbd6759ce18756ea": 2,
+        "154b66255b01a09bf1c88bb1ea89be78": 4,
+        "81f8b7996de2453e9cce3261ea78c722": 5,
+        "a39f40cff7f64fcd86eb61f5dfc0bd4f": 2,
+        "dcf22abc8a7c4f078a3174f436e0e0ba": 1,
+        "a6db6c4cbb414c5a90b3370ca8a11b91": 1,
+        "3cdd8407c2694cf5827ccd6b9ce2ca86": 1,
+        "66e0b1416334425c94ac6b23020bdebe": 2,
+        "a40c3981b5da423198c6206790c7f196": 1,
+        "f9c435d55c3949efabdb7f35559df1e0": 2,
+        "fbe9d5cc44c14db0973388843f8ebf6b": 1,
+        "9e0eced329e241a390924a11deca01dd": 2,
+        "ff9146f83b794d56a0401e7eaed33290": 1,
+        "1dc7f1cdfa0c49e2b962093bc3da0acd": 1,
+        "160426a5eb7640eb8383543580fbb2b3": 1,
+        "4fe57598a476462cae435c5b8cd285d7": 4,
+        "fa33d4808b42d46b96893a5da4a98304": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "9a15f9d7f4f74ec990be277ab9e75309": 1,
+        "efffc24e768b4ae69d39f2edda2e269a": 6,
+        "3ec77201bbcd4ecd8722658d581a4e60": 2,
+        "f1c935facca64e7a89f94b680b5a9f65": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "3a92a380eb984420ae25a3930330887b": 1,
+        "f426025f26228162dab8da65d9abf4e1": 1,
+        "4ae178cd3b173aa4320e54aa4cc30360": 1,
+        "daa3cf3493c84fa3b0b6a6d427d23f0b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CR2032",
+          1,
+          "BAT-TH_BS-2-1",
+          "B1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "BS-2-1",
+            "BOM_Supplier Part": "C70376",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "25a043cd6bfe4528a121551d6550b565",
+            "uuid": "f426025f26228162dab8da65d9abf4e1"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C0603",
+          "C1,C12,C14,C16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Supplier Part": "C14663",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "47uF",
+          5,
+          "C1210",
+          "C2,C3,C4,C5,C18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TAIYO YUDEN",
+            "BOM_Manufacturer Part": "EMK325BJ476MM-T",
+            "BOM_Supplier Part": "C89147",
+            "puuid": "2ff699914e4849dc8fa1384e78f43943",
+            "uuid": "81f8b7996de2453e9cce3261ea78c722"
+          }
+        ],
+        [
+          "0.22u",
+          2,
+          "C1206",
+          "C6,C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "10nF",
+          1,
+          "C0603",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C149618",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0603KRX7R9BB103",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "dcf22abc8a7c4f078a3174f436e0e0ba"
+          }
+        ],
+        [
+          "22nF",
+          1,
+          "C0603",
+          "C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB223",
+            "BOM_Supplier Part": "C106222",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "a6db6c4cbb414c5a90b3370ca8a11b91"
+          }
+        ],
+        [
+          "100pF",
+          1,
+          "C0603",
+          "C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C160903",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB101",
+            "BOM_Paste Type": "Extended Part",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3cdd8407c2694cf5827ccd6b9ce2ca86"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603MRX5R7BB106",
+            "BOM_Supplier Part": "C109457",
+            "BOM_Paste Type": "Extended Part",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "66e0b1416334425c94ac6b23020bdebe"
+          }
+        ],
+        [
+          "22pf",
+          2,
+          "C0603",
+          "C13,C15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C1210",
+          "C17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603MRX5R7BB106",
+            "BOM_Supplier Part": "C109457",
+            "BOM_Paste Type": "Extended Part",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ff699914e4849dc8fa1384e78f43943",
+            "uuid": "66e0b1416334425c94ac6b23020bdebe"
+          }
+        ],
+        [
+          "RFN1LAM6STR",
+          1,
+          "SOD-128-2",
+          "D1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "850e9e1a569247a9bb32903eb74f1097",
+            "uuid": "a40c3981b5da423198c6206790c7f196"
+          }
+        ],
+        [
+          "DC005-2.0MM",
+          1,
+          "DC-IN-TH_DC005",
+          "DC1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "DC005-2.0MM",
+            "BOM_Supplier Part": "C111567",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "daa3cf3493c84fa3b0b6a6d427d23f0b"
+          }
+        ],
+        [
+          "DISP_IN12A",
+          4,
+          "DISP_IN-12_SOCKET",
+          "DISP1,DISP2,DISP3,DISP4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "67794a00921d486dbc1bc21b6193d5ea",
+            "uuid": "e5e816f06b3a4b4d9db4af55c4c5693e"
+          }
+        ],
+        [
+          "DA2032-AL",
+          1,
+          "DA2032",
+          "FT1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5bc488a271a6427289250ed5b19667c1",
+            "uuid": "4726216aa3344b0186163e2b1c08e4bf"
+          }
+        ],
+        [
+          "Colon 1",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "Colon 2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "Programming",
+          1,
+          "HDR-M-2.54_1X4",
+          "J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "IRLR3110ZTRPBF",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.57-LS9.9-TR-CW",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "IR",
+            "BOM_Manufacturer Part": "IRLR3110ZTRPBF",
+            "BOM_Supplier Part": "C67277",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6d167e43e75541d89fdedf59c8bba0a5",
+            "uuid": "9ac284cfb7ea48f2af532b2403c1b78c"
+          }
+        ],
+        [
+          "IRFL210",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "IR",
+            "BOM_Manufacturer Part": "IRFL210",
+            "BOM_Supplier Part": "C41576",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "f1c935facca64e7a89f94b680b5a9f65"
+          }
+        ],
+        [
+          "140K",
+          2,
+          "R0603",
+          "R1,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C185372",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-07140KL",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "f9c435d55c3949efabdb7f35559df1e0"
+          }
+        ],
+        [
+          "1M",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C308486",
+            "BOM_Manufacturer": "ROHM Semicon",
+            "BOM_Manufacturer Part": "MCR18EZPD1004",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "fbe9d5cc44c14db0973388843f8ebf6b"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0603",
+          "R3,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0710KL",
+            "BOM_Supplier Part": "C98220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "9e0eced329e241a390924a11deca01dd"
+          }
+        ],
+        [
+          "0.02",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C164156",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "PE1206FRF470R02L",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ff9146f83b794d56a0401e7eaed33290"
+          }
+        ],
+        [
+          "22",
+          1,
+          "R0603",
+          "R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0722RL",
+            "BOM_Supplier Part": "C107701",
+            "BOM_Paste Type": "Extended Part",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "1dc7f1cdfa0c49e2b962093bc3da0acd"
+          }
+        ],
+        [
+          "63.4K",
+          1,
+          "R0603",
+          "R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0763K4L",
+            "BOM_Supplier Part": "C163422",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "160426a5eb7640eb8383543580fbb2b3"
+          }
+        ],
+        [
+          "20k",
+          4,
+          "R1206",
+          "R9,R13,R14,R15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "200k",
+          2,
+          "R1206",
+          "R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LT3757EMSE#PBF",
+          1,
+          "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL-EP",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C117410",
+            "BOM_Manufacturer": "Linear Tech",
+            "BOM_Manufacturer Part": "LT3757EMSE#PBF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "74f183d8e4cf4cdd876e03f000206dd2",
+            "uuid": "29916411b5824538ac6e86db0ad4c912"
+          }
+        ],
+        [
+          "ATMEGA328P-AU",
+          1,
+          "TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-AU",
+            "BOM_Supplier Part": "C14877",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "9c6dab9dc91e4b929269cb3454d6d713",
+            "uuid": "fa33d4808b42d46b96893a5da4a98304"
+          }
+        ],
+        [
+          "74HC595DG",
+          2,
+          "SOP-16",
+          "U3,U6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "2262c2e421934c8ea3438b91e7e0189b",
+            "uuid": "15d372b887d64ee2bbd6759ce18756ea"
+          }
+        ],
+        [
+          "AMS1117-5.0",
+          1,
+          "PG-SOT223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C498116",
+            "BOM_Manufacturer": "HGC(Huaguan Semicon)",
+            "BOM_Manufacturer Part": "AMS1117-5.0",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c75dbd9cd3dc4b3f940d9f061c6f532c",
+            "uuid": "9a15f9d7f4f74ec990be277ab9e75309"
+          }
+        ],
+        [
+          "DS3231MZ+",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MAXIM",
+            "BOM_Manufacturer Part": "DS3231MZ+",
+            "BOM_Supplier Part": "C107410",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "3a92a380eb984420ae25a3930330887b"
+          }
+        ],
+        [
+          "K155ID1/SN74141",
+          4,
+          "DIP16",
+          "U7,U8,U9,U10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "4fe57598a476462cae435c5b8cd285d7"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "OSC-TH_L10.0-W4.5-P5.00",
+          "X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X49SD16MSD2SC",
+            "BOM_Supplier Part": "C16212",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c9c6eea978e64b23889483181a791a9e",
+            "uuid": "4ae178cd3b173aa4320e54aa4cc30360"
+          }
+        ]
+      ],
+      "updateTime": 1630196302,
+      "createTime": 1630126877,
+      "histories": [],
+      "created_at": "2021-08-27 22:01:17",
+      "updated_at": "2021-08-28 17:18:22"
+    },
+    {
+      "uuid": "b0f189f1ef61c8465573fa330a1c67b7",
+      "puuid": "1354cf00bc6199fda6748037bdb7ae20",
+      "title": "PCB_Nixie Clock",
+      "filename": "PCB_Nixie Clock.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "25a043cd6bfe4528a121551d6550b565": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 10,
+        "2ff699914e4849dc8fa1384e78f43943": 6,
+        "7bdec8012728462a85919a4d0d033579": 2,
+        "850e9e1a569247a9bb32903eb74f1097": 1,
+        "67794a00921d486dbc1bc21b6193d5ea": 4,
+        "5bc488a271a6427289250ed5b19667c1": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "6d167e43e75541d89fdedf59c8bba0a5": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "398691f1f785460098bbe5ee6590333c": 6,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 8,
+        "74f183d8e4cf4cdd876e03f000206dd2": 1,
+        "9c6dab9dc91e4b929269cb3454d6d713": 1,
+        "c75dbd9cd3dc4b3f940d9f061c6f532c": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "36387ea742a04602bc24d100c866268f": 4,
+        "c9c6eea978e64b23889483181a791a9e": 1,
+        "2262c2e421934c8ea3438b91e7e0189b": 2,
+        "1337670005c6484c999f9b4c272ee9fe": 1
+      },
+      "BOM": [],
+      "updateTime": 1630197642,
+      "createTime": 1630127285,
+      "histories": [],
+      "created_at": "2021-08-27 22:08:05",
+      "updated_at": "2021-08-28 17:40:42"
+    }
+  ],
+  "sort": [],
+  "title": "Nixie Clock",
+  "foldername": "Nixie Clock",
+  "schfilename": "Nixie Clock.json",
+  "schfilemtime": 1630196302542
+}
